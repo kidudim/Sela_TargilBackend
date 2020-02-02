@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PriceComarisonServiceAPI</name>
+    </assembly>
+    <members>
+        <member name="M:PriceComarisonServiceAPI.Controllers.PriceComparisonController.Reprice(PriceComarisonServiceAPI.Models.RepriceRequest)">
+            <summary>
+            trigger a repricing flow for a single product
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PriceComarisonServiceAPI.Controllers.PriceComparisonController.Product(System.String)">
+            <summary>
+            return the latest price for a given product
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PriceComarisonServiceAPI.Controllers.PriceComparisonController.Query(PriceComarisonServiceAPI.Models.QueryRequest)">
+            <summary>
+            return products from the log files
+            according to query filters and enable paging
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
